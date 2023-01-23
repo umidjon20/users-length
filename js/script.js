@@ -30,7 +30,7 @@ let users = [
       name: 'Tura'
    }
 ]
-
+function calclength(){
 for(let i = 0;i < users.length;i++){
 
       if(users[i].name.length > 5) {
@@ -39,6 +39,8 @@ for(let i = 0;i < users.length;i++){
          console.log(users[i].name + 'bu ismda 4 harf bor')
     }
    }
+}
+calclength()
 
 
 
@@ -49,7 +51,6 @@ for(let i = 0;i < users.length;i++){
 
 
 
-   
 // function calcLength(usersData){
 // let result = users[i].name.length
 // for(let i = 0;i < users.length;i++){
